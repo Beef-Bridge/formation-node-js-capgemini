@@ -1,0 +1,52 @@
+{
+  "name": "njs-26052026",
+  "version": "1.0.0",
+  "description": "Node",
+  "main": "index.js",
+  "scripts": {
+    "test:u": "vitest",
+    "test:i": "vitest --watch --silent=false",
+    "test:e": "cypress open",
+    "cluster:c": "node 0-admin/demo-cours/cluster.mjs",
+    "cluster:a": "autocannon -c 10 -d 15 http://localhost:9999",
+    "x31": "cd exercices/corrections/3.1 & npm run start",
+    "x31:dev": "cd exercices/corrections/3.1 & npm run start:dev",
+    "x32": "cd exercices/corrections/3.2 & npm run start",
+    "x32:dev": "cd exercices/corrections/3.2 & npm run start:dev",
+    "x33": "cd exercices/corrections/3.3 & npm start",
+    "x33:dev": "cd exercices/corrections/3.3 & npm run start:dev",
+    "x34": "cd exercices/corrections/3.4 & npm run start:all",
+    "x34:w": "cd exercices/corrections/3.4 & npm run start:all:dev",
+    "x41": "cd exercices/corrections/4.1 & npm run start",
+    "x41:w": "cd exercices/corrections/4.1 & npm run start:w",
+    "x51-52:pug:dev": "cd exercices/corrections/5.1-5.2-pug & npm run start:w",
+    "x53": "cd exercices/corrections/5.3 & npm run start",
+    "x53:dev": "cd exercices/corrections/5.3 & npm run start:w",
+    "x61": "cd exercices/corrections/6.1 & npm run start",
+    "x61:dev": "cd exercices/corrections/6.1 & npm run start:w",
+    "x71:dev": "cd exercices/corrections/7.1 & npm run test:w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glo10/node_26052026.git"
+  },
+  "keywords": [],
+  "author": "Glodie Tshimini",
+  "license": "ISC",
+  "homepage": "git+https://github.com/glo10/node_26052026.git",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.7",
+    "concurrently": "^9.2.1",
+    "cypress": "^15.15.0",
+    "mocha": "^11.7.6",
+    "supertest": "^7.2.2",
+    "vitest": "^4.1.7"
+  },
+  "dependencies": {
+    "autocannon": "^8.0.0",
+    "clinic": "^13.0.0",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.6.2",
+    "xml2js": "^0.6.2"
+  }
+}

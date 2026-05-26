@@ -1,0 +1,17 @@
+# Exercices
+
+1. [Exercice 1 : *NPM*](./ex1.md)
+2. [Exercice 2 : lecture/écriture](./ex2.md)
+3. [Exercice 3 : entrée/sortie terminal](./ex3.md)
+4. [Exercice 4 : serveur web avec du *JSON*](./ex4.md)
+5. [Exercice 5 : serveur Web *HTTPS* avec les fichiers *HTML*](./ex5.md)
+6. [Exercice 6 : processus fils](./ex6.md)
+7. [Exercice 7 : gestionnaire de routes](./ex7.md)
+8. [Exercice 8 : moteur de *template*](./ex8.md)
+9. [Exercice 9 : middlewares](./ex9.md)
+10. [Exercice 10 : *API* ligue de champions](./ex10.md)
+11. [Exercice 11 : *Mongoose*](./ex11.md)
+12. [Exercice 12 : tests unitaires avec *Mocha* et *node:assert*](./ex12.md)
+13. [Exercice 13 : tests d'intégration des routes avec *Supertest*](./ex13.md)
+14. [Exercice 14 : tests end-to-end avec *Cypress*](./ex14.md)
+15. [Exercice 15 : gestion des exceptions try/catch/finally et throw](./ex15.md)
