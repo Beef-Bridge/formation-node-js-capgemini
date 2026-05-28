@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Profil de <%= githubUser.login %></title>
+  </head>
+  <body>
+    <a href="/github-users">← Retour à la liste</a>
+
+    <h1>Profil de : <%= githubUser.name || githubUser.login %></h1>
+
+    <img
+      src="<%= githubUser.avatar_url %>"
+      alt="Avatar de <%= githubUser.login %>"
+      width="150"
+    />
+
+    <ul>
+      <li><strong>Pseudo :</strong> <%= githubUser.login %></li>
+      <li>
+        <strong>Bio :</strong> <%= githubUser.bio || "Pas de biographie disponible" %>
+      </li>
+      <li>
+        <strong>Abonnés (Followers) :</strong> <%= githubUser.followers %>
+      </li>
+      <li><strong>Dépôts publics :</strong> <%= githubUser.public_repos %></li>
+    </ul>
+  </body>
+</html>

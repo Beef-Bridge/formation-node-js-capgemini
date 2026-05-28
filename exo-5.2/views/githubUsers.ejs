@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+    </head>
+    <body>
+        <h1>Liste des utilisateurs GitHub</h1>
+        
+        <ul id="list-github-users">
+            <% githubUsers.forEach(user => { %>
+                <li>
+                    <ul>
+                        <li><strong><%= user.login %></strong></li>
+                        <li><img src="<%= user.avatar_url %>" alt="Avatar de <%= user.login %>" width="150" /></li>
+                        <li><a href="/github-users/<%= user.login %>">Voir le profil</a></li>
+                        <li><a href="https://api.github.com/users/<%= user.login %>">↗️ Github</a></li>
+                    </ul>
+                </li>
+            <% }); %>
+        </ul>
+    </body>
+</html>

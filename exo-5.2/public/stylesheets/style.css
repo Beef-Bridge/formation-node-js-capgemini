@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#list-github-users {
+  list-style-type: none;
+}
+
+#list-github-users li {
+  display: block;
+  float: left;
+  width: 200px; 
+  margin: 5px;
+}
+
+#list-github-users li a {
+  text-decoration: none;
+}
